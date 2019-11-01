@@ -52,7 +52,44 @@ print(2 ** 10)  # The result is 1024
 
 print()
 print()
+# Floor Division (It rounds down)
 print(12 // 3)
 print(9 // 3)
 print(10 // 3)
 print(11 // 3)
+print(15 // 4)  # The result is 3
+print(-8 // 3)  # The result is -3
+
+# Modulus
+print()
+print()
+print(13 % 12)  # The answer is 1
+print(14 % 12)  # The answer is 2
+print(25 % 12)  # The answer is 1
+print(7 % 4)  # The answer is 3
+print(155 % 50)  # The answer is 5
+
+print()
+print()
+# Mixed Review
+print(3 ** 3)  # The answer is 27
+print(27 % 5)  # The answer is 2
+print(11 % 3)  # The answer is 2
+print(18 // 10)  # The answer is 1
+
+# --------
+# Variables
+# --------
+print()
+print()
+the_number = 3
+print(the_number)
+the_number = the_number + 3
+the_number = the_number * 100
+print(the_number)
+
+print()
+screens = 4
+screens + 2
+print(screens)
+
