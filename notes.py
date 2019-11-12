@@ -93,3 +93,56 @@ screens = 4
 screens + 2
 print(screens)
 
+drinks = 5
+drinks = drinks + 10
+drinks += 15
+print(drinks)
+
+food = 110
+food -= 10  # Food is now 100
+food *= 10  # Food is now 1000
+food /= 100  # Food is now 10
+food %= 5  # Find the remainder if you divide by 5
+print(food)
+
+# Review
+# Do not run these
+balance = 5000
+balance -= 1000  # 4000
+balance *= 2  # 8000
+print(balance)
+
+# --------
+# Strings
+# --------
+
+first_word = "wiebe"
+second_word = "computer science"
+third_word = "money"
+print(first_word, second_word)
+
+# This is concatenation
+print("I have a lot of fun in " + second_word)
+print(first_word + " makes the class great.")
+
+# Format Print
+print("I have fun in {}'s class".format(first_word))
+
+# Comparators
+
+print(5 == 5)  # Is 5 equal to 5?
+print(7 != 4)  # Is 7 not equal to 4?
+print(5 > 2)  # Is 5 greater than 2?
+print(10 >= 41)  # Greater than or equal to
+print(-10 <= 9)  # -10 is less than or equal to 9?
+
+first_variable = "the first thing"
+second_variable = "the second thing"
+print("{} and {}".format(first_variable, second_variable))
+
+pizza = 5
+slices = 10
+pepper = 2
+# Make this print
+# "I want 5 pizzas, 2 peppers, and 10 slices"
+
