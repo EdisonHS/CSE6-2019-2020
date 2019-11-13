@@ -145,4 +145,22 @@ slices = 10
 pepper = 2
 # Make this print
 # "I want 5 pizzas, 2 peppers, and 10 slices"
+print("I want {} pizzas, {} peppers, and {} slices"
+      .format(pizza, pepper, slices))
 
+current_class = "Computer Science"
+teacher = "Mr. Wiebe"
+# I enjoy Mr. Wiebe's Computer Science class.
+print("I enjoy {}'s {} class".format(teacher, current_class))
+
+# -----
+# Inputs
+# -----
+
+name = input("What is your name?")
+print("Hello {}".format(name))
+
+# Inputs are the ONLY way to interact
+
+age = input("How old are you?")
+print("{}?!?!?! WOW, you belong in a museum!".format(age))
