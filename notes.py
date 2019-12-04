@@ -164,3 +164,19 @@ print("Hello {}".format(name))
 
 age = input("How old are you?")
 print("{}?!?!?! WOW, you belong in a museum!".format(age))
+
+# ----------
+# Recasting
+# ----------
+number = input("Give me a number")
+number = int(number)  # This turns it into an integer
+print("The next number is {}".format(number + 1))
+
+print("5" + "8")  # This is the number 58
+print(str(5) + str(8))  # This is also 58
+# --------
+# Rounding
+# --------
+cost = 52.6897
+print("The cost is {:.2f}".format(cost))
+print("The cost is {:.3f}".format(cost))
